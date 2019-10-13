@@ -1,0 +1,8 @@
+build/
+.env
+scripts/https/certs/*.crt
+scripts/https/certs/*.csr
+scripts/https/certs/*.key
+scripts/https/certs_conf/*.cnf
+scripts/https/secrets/**/*.crt
+scripts/https/secrets/**/*.key
