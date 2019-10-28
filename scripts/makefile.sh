@@ -39,9 +39,7 @@ help:
 ##---------------------------------------------------------------------------
 
 init: ## Init project
-	make env
-	make up
-	make install
+init: env up install
 
 up: ## Deploy the stack
 	\$(EXEC) deploy
