@@ -67,7 +67,7 @@ info() {
     echo -e "\033[33m Container ID: \033[34m\$CONTAINER_ID\n\033[37m"
 
     echo -e "\033[33m Hosts:\033[37m"
-    echo -e "\033[37m    - ${ENV_PROJECT_NAME} (HTTPS): \033[34m https://${ENV_PROJECT_NAME}.${ENV_PROJECT_TEAM}.dev:${ENV_PORT}\033[37m"
+    echo -e "\033[37m    - ${ENV_PROJECT_NAME} (HTTPS): \033[34m https://${ENV_PROJECT_NAME}.${ENV_PROJECT_TEAM}.dev:${ENV_PORT_APP}\033[37m"
 
     echo -e "\n\033[33m To go inside the container, run: \033[37m\033[45m make exec \033[37m\033[49m 🐳"
 }
